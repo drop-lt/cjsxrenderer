@@ -7,14 +7,7 @@
 
 // not the best implementation of a hash table but it does the job well
 
-typedef struct {
-    const char* key;
-    void* value;
-} ht_entry;
-
 typedef struct HashTable HashTable;
-
-
 
 void Dict_destroy(HashTable* table);
 void* Dict_get(HashTable* table, const char* key);

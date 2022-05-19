@@ -35,5 +35,8 @@
     <ClCompile Include="Stack.c">
       <Filter>Arquivos de Recurso</Filter>
     </ClCompile>
+    <ClCompile Include="XMLparser.c">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
